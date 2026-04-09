@@ -23,5 +23,5 @@ https://developer.apple.com/tutorials/develop-in-swift/save-data
 #### Challenge yourself
 - 데이터 저장 연습하기 : 식료품을 목록에 표기하는 GroceryList 프로젝트 만들어보기
 
-<img src="link" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH2_Birthdays/CH2_Birthdays/Assets.xcassets/Birthdays.imageset/Birthday.png" width="20%">
 
