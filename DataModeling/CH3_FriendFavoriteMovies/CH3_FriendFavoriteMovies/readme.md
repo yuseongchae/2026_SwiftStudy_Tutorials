@@ -16,10 +16,9 @@ https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data
     - @Query는 DB에서만 데이터를 가져올 수 있다 -> 테스트 단계에서는 가짜 데이터를 만들어서 넣는다.
     
 - Navigation
-
-    - `NavigationSplitView`
-        - 정보 hierachy(계층)를 관리할 수 있는 SwiftUI view
-        - `NavigationLink`와 함께 사용하여 사람들이 app의 content를 탐색하고, 구성 방식을 이해할 수 있도록 함.
+    - `NavigationSplitView`로 화면을 나눠서 계층 구조를 표현할 수 있다.
+    - 정보 hierachy(계층)를 관리할 수 있는 SwiftUI view이다.
+    - `NavigationLink`와 함께 사용하여 사람들이 app의 content를 탐색하고, 구성 방식을 이해할 수 있도록 할 수 있다.
         
 #### Topics and skills covered
     - Sample data를 정의하고 SwiftUI preview에서 shared instance로 reuse하기
