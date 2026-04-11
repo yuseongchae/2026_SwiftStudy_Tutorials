@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct CH3_FriendFavoriteMoviesApp: App {
@@ -13,5 +14,8 @@ struct CH3_FriendFavoriteMoviesApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        // .modelContainer를 통해 앱이 시뮬레이터에서 실제 데이터로 동작하도록 설정
+        .modelContainer(for: [Movie.self, Friend.self])
     }
 }

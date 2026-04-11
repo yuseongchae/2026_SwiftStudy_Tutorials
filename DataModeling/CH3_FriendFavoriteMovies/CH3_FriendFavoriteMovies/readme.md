@@ -1,6 +1,6 @@
 ## [Swift] Data modeling
 ### CH3. Navigation, editing, and relationships
-Navigate sample data
+1. Navigate sample data
 https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data
 - Sample data
     - @Query property는 하드코딩된 데이터를 넣을 수 없어서, SampleData(가짜 DB)를 만들어서 사용한다.
@@ -25,6 +25,42 @@ https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data
 - `Manually creating`, `Schema`, `ModelConfiguration` and `ModelContainer`
 - `NavigationSplitView`, `NavigationStack`, `NavigationLink`를 사용해 structured data를 navigation hieracheies(계층)에 표시하기 
     
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_1.imageset/FriendMovie_1.png" width="20%">
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_2.imageset/FriendMovie_2.png" width="20%">
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_3.imageset/FriendMovie_3.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_1.imageset/FriendMovie_1.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_2.imageset/FriendMovie_2.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/Assets.xcassets/FriendMovie_3.imageset/FriendMovie_3.png" width="20%">
+
+2. Create, update, and delete data https://developer.apple.com/tutorials/develop-in-swift/create-update-and-delete-data
+- Modal content
+    - `.sheet` modifier로 Modal을 띄울 수 잇다.
+    
+- Component views
+    - 개념
+        - 재사용 가능한 화면 단위.
+        - 본 예제에서는 `FriendDetail`과 `MovieDetail`을 재사용했다.
+    - Reusable하고 Flexible한 component는 complex application을 만드는 Fundamental(핵심)이다.
+    - 큰 앱을 기능이 명확한 작은 view로 나누면, 그 앱을 쉽게 이해할 수 있다.
+    - View와 Model은 함께 동작한다.
+        - Model : 데이터 제공 (provide data)
+        - View : 데이터 표시 (display the data) + 사용자 입력에 따라 수정 (modify the data in response to input)
+        
+    ‼️Point
+    - 하나의 View를 여러 상황에서 재사용하면 효율적이다.
+    
+#### Topics and skills covered
+- Reusable detail views for both creating and editing data
+- Modifying data models with @Bindable (@Bindable로 data model을 수정하기)
+- `Form` container view : 데이터를 보여주고 수정할 수 있는 UI를 구조적으로 제공하는 컨테이너
+- Displaying modal interfaces using `sheets`
+- Optionals
+- Custom view initializers
+
+#### 메인 화면
+<img src="New_Friend_Edit_Plus" width="20%"><img src="New_Movie_Edit_Plus" width="20%">
+
+#### Edit 버튼 눌렀을 때
+<img src="Friend_Edit" width="20%"><img src="Movie_Edit" width="20%">
+
+#### 새 친구/영화 추가하기
+<img src="Friend_Plus" width="20%"><img src="Friend_Plus_List" width="20%">
+<img src="Movie_Plus" width="20%"><img src="Movie_Plus_List" width="20%">
+
+#### 친구/영화 삭제하기
+<img src="Delete_Friend_Swipe" width="20%"><img src="Delete_Movie_Swipe" width="20%">

@@ -25,11 +25,25 @@ class SampleData {
         // -> @MainActor or custom actor 필요
     }
     
+    
+    // forced unwrap operator(!)
+    // forced(강제) unwrap operator
+    // optional 값을 꺼내지만, 값이 nil이면 앱이 바로 crash 난다.
+    // 따라서 100% 값이 있다고 확신할 때만 사용하거나 (Use it only when you're certain the value is present)
+    // Preview처럼 사용자에게 영향 없는 상황에서만 사용해야한다. (or a crash won't impact people using your app - such as in preview code)
+    var friend: Friend {
+        Friend.sampleData.first!
+    }
+    
+    var movie: Movie {
+        Movie.sampleData.first!
+    }
+    
     private init() {
         let schema = Schema([ // Schema : model의 schema는 코드에서 정의한 class를 데이터 저장소의 데이터와 연결하는데 도움을 줌
             Friend.self,
             Movie.self,
-                            ])
+        ])
         
         // preview에 persisted data를 사용해서는 안된다.
         // Xcode는 view 코드를 작성할 때 preview를 자주 다시 로드하며, preview를 새로고침할 때마다 깨끗한 sample data를 설정하는 것이 가장 좋다.
