@@ -25,6 +25,10 @@ struct FriendDetail: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var context
     
+    // 데이터 저장소로부터 movies를 view로 fetch해오기 위한 코드
+    // to the view to fetch the movies from the data store
+    @Query(sort: \Movie.title) private var movies: [Movie]
+    
     init(friend: Friend, isNew: Bool = false) {
         self.friend = friend
         self.isNew = isNew
@@ -36,6 +40,18 @@ struct FriendDetail: View {
         Form {
             TextField("Name", text: $friend.name)
                 .autocorrectionDisabled()
+            
+            // 이 상태로는 movie list는 볼 수 있으나, selected value를 바꿀순 없다
+            Picker("Favorite Movie", selection: $friend.favoriteMovie) {
+                Text("None") // 좋아하는 영화가 없을수도 있으니, "None" 선택지 추가
+                    .tag(nil as Movie?)
+                
+                
+                ForEach(movies) { movie in
+                    Text(movie.title)
+                        .tag(movie) // .tag modifier를 통해 선택지별로 역할을 부여하여 selected value를 바꿀 수 있도록 한다
+                }
+            }
         }
         .navigationTitle(isNew ? "New Friend" : "Friend")
         .navigationBarTitleDisplayMode(.inline)
@@ -49,6 +65,7 @@ struct FriendDetail: View {
                         dismiss() // 삭제
                     }
                 }
+                
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") {
                         context.delete(friend)
@@ -64,10 +81,12 @@ struct FriendDetail: View {
     NavigationStack {
         FriendDetail(friend: SampleData.shared.friend)
     }
+    .modelContainer(SampleData.shared.modelContainer)
 }
 
 #Preview("New Friend") {
     NavigationStack {
         FriendDetail(friend: SampleData.shared.friend, isNew: true)
     }
+    .modelContainer(SampleData.shared.modelContainer)
 }

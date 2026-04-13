@@ -12,6 +12,12 @@ import SwiftData
 class Movie {
     var title: String
     var releaseDate: Date
+    
+    
+    // Friend.favoriteMovie & Movie.favoritedBy properties는 two-way relationship 형태.
+    // Movie to Friend : one-to-many relationship (일-대-다 관계) : 한 개의 movie는 multiple friend에게 좋아요 받을 수 있다
+    var favoritedBy = [Friend]()
+    
     init(title: String, releaseDate: Date) {
         self.title = title
         self.releaseDate = releaseDate

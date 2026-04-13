@@ -43,7 +43,7 @@ class SampleData {
         let schema = Schema([ // Schema : model의 schema는 코드에서 정의한 class를 데이터 저장소의 데이터와 연결하는데 도움을 줌
             Friend.self,
             Movie.self,
-        ])
+                            ])
         
         // preview에 persisted data를 사용해서는 안된다.
         // Xcode는 view 코드를 작성할 때 preview를 자주 다시 로드하며, preview를 새로고침할 때마다 깨끗한 sample data를 설정하는 것이 가장 좋다.
@@ -73,6 +73,16 @@ class SampleData {
         for movie in Movie.sampleData {
             context.insert(movie)
         }
+        
+        // 친구랑 그들이 좋아하는 영화를 연결해보기
+        // property value설정시 SwiftData는 자동적으로 일치하는 property를 설정한다.
+        // (automatically updates the corresponding property on the other end for you)
+        Friend.sampleData[0].favoriteMovie = Movie.sampleData[1]
+        Friend.sampleData[2].favoriteMovie = Movie.sampleData[0]
+        Friend.sampleData[3].favoriteMovie = Movie.sampleData[4]
+        Friend.sampleData[4].favoriteMovie = Movie.sampleData[0]
+        
+        
     }
     
     

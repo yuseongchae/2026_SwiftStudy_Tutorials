@@ -21,14 +21,24 @@ struct FriendList: View {
     
     var body: some View {
         NavigationSplitView {
-            List {
-                ForEach(friends) { friend in
-                    NavigationLink(friend.name) {
-                        FriendDetail(friend: friend)
-                        
+            
+            Group {
+                // if문은 SwiftUI view가 아니므로, Group으로 묶어줘야한다.
+                // Group은 간단한 container view로, 어떤 방식으로든 내부 요소들을 변경하지 않는다.
+                // if문과 같은 조건문이나 여러 view에 modifier를 한 번에 적용할 때 사용하면 유용하다.
+                if !friends.isEmpty {
+                    List {
+                        ForEach(friends) { friend in
+                            NavigationLink(friend.name) {
+                                FriendDetail(friend: friend)
+                                
+                            }
+                        }
+                        .onDelete(perform: deleteFriends(indexes:))
                     }
+                } else {
+                    ContentUnavailableView("Add Friends", systemImage: "person.and.person")
                 }
-                .onDelete(perform: deleteFriends(indexes:))
             }
             .navigationTitle("Friends")
             .toolbar {
@@ -82,4 +92,8 @@ struct FriendList: View {
         .modelContainer(SampleData.shared.modelContainer)
 }
 
+#Preview("Empty List") {
+    FriendList()
+        .modelContainer(for: Friend.self, inMemory: true)
+}
 
