@@ -41,11 +41,11 @@ View (UI)
 ### SwiftUI는 View와 Model을 분리하고, @Observable + Environment로 연결하는 구조가 핵심이다.
     
 #### 기본 화면
-<img src="Alphabetizer_1" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH4_Alphabetizer/Alphabetizer/Assets.xcassets/Alphabetizer_1.imageset/Alphabetizer_1.png" width="20%">
 
 #### 맞췄을 때
-<img src="Alphabetizer_win" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH4_Alphabetizer/Alphabetizer/Assets.xcassets/Alphabetizer_win.imageset/Alphabetizer_win.png" width="20%">
 
 #### 틀렸을 때
-<img src="Alphabetizer_almost" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH4_Alphabetizer/Alphabetizer/Assets.xcassets/Alphabetizer_almost.imageset/Alphabetizer_almost.png" width="20%">
 
