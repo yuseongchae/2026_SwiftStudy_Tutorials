@@ -4,7 +4,8 @@
 https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-data
 
 - PhotosPicker
-    - `loadTransferable`활용해 선택한 사진을 지원되는 형식으로 전송하기
+    - `import PhotosUI`로 불러와서 사용 가능
+    - `loadTransferable`활용해 선택한 사진을 지원되는 형식으로 전송할 수 있음
 
 - flatMap
     - Optional에 flatMap을 적용하면?
@@ -17,4 +18,4 @@ https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-d
     (가독성 상승)
     
 #### MomentEntryView
-<img src="" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentEntryView.imageset/MomentEntryView.png" width="20%">
