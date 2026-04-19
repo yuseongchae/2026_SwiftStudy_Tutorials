@@ -44,7 +44,7 @@
 #### MomentsView
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsView.imageset/MomentsView.png" width="20%">
 
-### MomentsDetailView & confirmationDialog
+#### MomentsDetailView & confirmationDialog
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsDetailView.imageset/MomentsDetailView.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/confirmationDialog.imageset/confirmationDialog.png" width="20%">
 
 #### PhotosPicker
