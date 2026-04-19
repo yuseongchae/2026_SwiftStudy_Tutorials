@@ -78,8 +78,8 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
 - 복합 레이아웃 : Horizontal과 Vertical 스크롤 뷰를 조합해 복잡하고 유연한 화면 구성해보기
 - `LazyVStack` : 화면에 보이는 부분만 메모리에 로드하여 많은 양의 데이터를 효율적으로 보여주기 (성능 최적화)
 - 스크롤 세부 제어
-    - `.scrollIndicators(.hidden) 사용해 화면에서 indicater(스크롤 바) 숨기기
-    - `scrollClipDisabled() 사용해 clipping 효과를 비활성화하여 스크롤 시 View가 화면 끝에서 잘리지 않고 자연스럽게 넘어가도록 하기
+    - `.scrollIndicators(.hidden)` 사용해 화면에서 indicater(스크롤 바) 숨기기
+    - `.scrollClipDisabled()` 사용해 clipping 효과를 비활성화하여 스크롤 시 View가 화면 끝에서 잘리지 않고 자연스럽게 넘어가도록 하기
     
 #### Hexagon 이미지와 Hexagon 이미지 디테일 View에 뱃지 달기
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/HexagonAccessory.imageset/HexagonAccessory.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/MomentDetailView_Badge.imageset/MomentDetailView_Badge.png" width="20%">
