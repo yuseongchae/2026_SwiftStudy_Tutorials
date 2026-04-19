@@ -19,8 +19,20 @@ struct MomentsView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                pathItems
-                    .frame(maxWidth: .infinity)
+                
+                // VStack과 공통점/차이점
+                // 공통점 : 외관상 똑같이 작동함
+                // 차이점 : 모든 View를 한꺼번에 만드는 대신 필요할 때(화면에 보일 때) View를 생성
+                // => Lazy stacks are much more efficient when you have more data and views to display. (표시할 데이터가 많은 경우에는 LazyVStack을 쓰는게 메모리 측면에서 효율적임)
+                LazyVStack(spacing: 8, pinnedViews: .sectionHeaders) {
+                    Section {
+                        pathItems
+                            .frame(maxWidth: .infinity)
+                    } header: {
+                        streakHeader
+                    }
+                }
+                
             }.overlay {
                 if moments.isEmpty { // moment가 비어있을 경우
                     ContentUnavailableView { // 데이터가 없을 때 보여주는 뷰를 활용해
@@ -68,6 +80,20 @@ struct MomentsView: View {
                     .scaleEffect(phase.isIdentity ? 1 : 0.8) // 가만히 있으면 크기 그대로 / 움직이면 크기 80%로 줄이기
                 
             }
+        }
+    }
+    
+    @ViewBuilder private var streakHeader: some View {
+        let streak = StreakCalculator().calculateStreak(for: moments)
+        if streak > 0 {
+            HStack {
+                Text(verbatim: "\(streak)")
+                Text(Image(systemName: "flame.fill"))
+                    .foregroundStyle(.ember)
+                Spacer()
+            }
+            .font(.subheadline)
+            .padding()
         }
     }
 }

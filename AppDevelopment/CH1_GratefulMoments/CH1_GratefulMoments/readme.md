@@ -45,7 +45,50 @@
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsView.imageset/MomentsView.png" width="20%">
 
 #### MomentsDetailView & confirmationDialog
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsDetailView.imageset/MomentsDetailView.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/confirmationDialog.imageset/confirmationDialog.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/confirmationDialog.imageset/confirmationDialog.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsDetailView.imageset/MomentsDetailView.png" width="20%">
 
 #### PhotosPicker
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_1.imageset/PhotosPicker_1.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_2.imageset/PhotosPicker_2.png" width="20%">
+
+### CH2. User experience features
+Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges
+
+#### Check your Understanding
+- purpose of `FetchDescriptor` in SwiftData
+    - To describe how data should be fetched from a data source
+    - `FetchDescriptor` describes the criteria(기준), the sort order, and any additional configuration to use when performing a fetch
+    
+- `compactMap`과 `map`의 차이점 (when applied to an Array)
+    - 우선 두 기능 모두 배열의 모든 요소를 반환한다.
+    - `compactMap`은 결과물 중에서 `Optional`(값이 없을 수도 있는 상태)인 것들을 버린다. (변환 결과가 nil(값 없음)이 나왔을 때 map은 그 nil을 그대로 결과 배열에 포함시키지만, compactMap은 제외함)
+    - `compactMap`은 `map`의 변환 과정을 거친 뒤 그 결과를 optional이 아닌(non-optional) 배열로 압축(compact)한다.
+
+#### Topics and skills covered
+1. 데이터 관리 및 쿼리 (SwiftData)
+- SwiftData 사용해 앱의 데이터를 영구적으로 저장하고 관리하기
+- `FetchDescriptor`를 사용해 SwiftUI View 안에서가 아닌 View 외부(일반 class나 매니저 객체 등)에서 SwiftData를 query 활용해 조회하고 가져오기
+- `DateConponents` 활용해 특정 날짜를 계산하거나 비교하기
+
+2. 사용자 경험 및 기능 구현
+- Achievement 시스템 - 사용자의 특정 행동이나 milestone에 따라 보상이나 뱃지를 부여하는 로직 구현하기
+- 문제 해결 알고리즘 - 특정 문제를 해결하기 위해 데이터를 처리하고 논리적인 흐름을 만드는 알고리즘 설계하기
+
+3. SwiftUI Layout - Scrolling & Layout
+- 복합 레이아웃 : Horizontal과 Vertical 스크롤 뷰를 조합해 복잡하고 유연한 화면 구성해보기
+- `LazyVStack` : 화면에 보이는 부분만 메모리에 로드하여 많은 양의 데이터를 효율적으로 보여주기 (성능 최적화)
+- 스크롤 세부 제어
+    - `.scrollIndicators(.hidden) 사용해 화면에서 indicater(스크롤 바) 숨기기
+    - `scrollClipDisabled() 사용해 clipping 효과를 비활성화하여 스크롤 시 View가 화면 끝에서 잘리지 않고 자연스럽게 넘어가도록 하기
+    
+#### Hexagon 이미지와 Hexagon 이미지 디테일 View에 뱃지 달기
+<img src="HexagonAccessory" width="20%"><img src="MomentDetailView_Badge" width="20%">
+
+#### MomentView with Streak & Moments가 없을 때
+<img src="MomentsView" width="20%"><img src="NoMoments" width="20%"><img src="Streak" width="20%">
+
+#### Badges, Streak
+<img src="UnlockedBadge" width="20%"><img src="LockedBadge" width="20%"><img src="Streak" width="20%">
+
+#### Achievements
+<img src="Achievements" width="20%"><img src="Achievements_scroll" width="20%"><img src="Streak" width="20%">

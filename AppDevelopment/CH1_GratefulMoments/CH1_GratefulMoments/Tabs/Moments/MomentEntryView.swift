@@ -54,6 +54,7 @@ struct MomentEntryView: View {
                         )
                         dataContainer.context.insert(newMoment)
                         do {
+                            try dataContainer.badgeManager.unlockBadges(newMoment: newMoment) // unlock badges when the person using the app creates a moment
                             try dataContainer.context.save() // 데이터 저장
                             dismiss()
                         } catch {

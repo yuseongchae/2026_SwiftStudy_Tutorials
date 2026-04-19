@@ -34,6 +34,7 @@ struct Hexagon<Content: View>: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: layout.size, height: layout.size)
+                .fontWeight(.ultraLight)
         }
         .background { // 이미지에 테두리 추가
             Image(systemName: "hexagon")
@@ -41,9 +42,15 @@ struct Hexagon<Content: View>: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: layout.size, height: layout.size)
                 .foregroundStyle(borderColor)
+                .fontWeight(.ultraLight)
         }
         
         .frame(width: layout.size, height: layout.size)
+        .overlay(alignment: .topTrailing) {
+            if let moment {
+                HexagonAccessoryView(moment: moment, hexagonLayout: layout)
+            }
+        }
     }
     
     

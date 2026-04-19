@@ -42,8 +42,23 @@ struct MomentDetailView: View {
     
     private var contentStack: some View {
         VStack(alignment: .leading) {
-            Text(moment.timestamp, style: .date)
-                .font(.subheadline)
+            
+            HStack {
+                Text(moment.timestamp, style: .date)
+                    .font(.subheadline)
+                Spacer()
+                
+                ForEach(moment.badges) { badge in
+                    NavigationLink {
+                        BadgeDetailView(badge: badge) }
+                    label : {
+                        Image(badge.details.image)
+                            .resizable()
+                            .frame(width: 44, height: 44)
+                    } 
+                }
+            }
+            
             Text("Timestamp")
             Text("Notes")
             if !moment.note.isEmpty { // 노트가 있을때만 보이게 하기
