@@ -82,13 +82,13 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
     - `scrollClipDisabled() 사용해 clipping 효과를 비활성화하여 스크롤 시 View가 화면 끝에서 잘리지 않고 자연스럽게 넘어가도록 하기
     
 #### Hexagon 이미지와 Hexagon 이미지 디테일 View에 뱃지 달기
-<img src="HexagonAccessory" width="20%"><img src="MomentDetailView_Badge" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/HexagonAccessory.imageset/HexagonAccessory.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/MomentDetailView_Badge.imageset/MomentDetailView_Badge.png" width="20%">
 
 #### MomentView with Streak & Moments가 없을 때
-<img src="MomentsView" width="20%"><img src="NoMoments" width="20%"><img src="Streak" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/MomentsView_Streak.imageset/MomentsView_Streak.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/NoMoments.imageset/NoMoments.png" width="20%"><img src="Streak" width="20%">
 
 #### Badges, Streak
-<img src="UnlockedBadge" width="20%"><img src="LockedBadge" width="20%"><img src="Streak" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/UnlockedBadge.imageset/UnlockedBadge.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/LockedBadge.imageset/LockedBadge.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Streak.imageset/Streak.png" width="20%">
 
 #### Achievements
-<img src="Achievements" width="20%"><img src="Achievements_scroll" width="20%"><img src="Streak" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements.imageset/Achievements.png" width="20%"><img src="Achievements_scroll" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements_scroll.imageset/Achievements_scroll.png" width="20%">
