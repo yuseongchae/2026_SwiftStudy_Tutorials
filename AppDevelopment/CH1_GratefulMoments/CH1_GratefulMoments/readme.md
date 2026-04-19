@@ -42,10 +42,10 @@
 - `Mask`를 적용해 content를 모양에 맞추기(fit)
 
 #### MomentsView
-<img src="MomentsView" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsView.imageset/MomentsView.png" width="20%">
 
 ### MomentsDetailView & confirmationDialog
-<img src="MomentsDetailView" width="20%"><img src="confirmationDialog" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentsDetailView.imageset/MomentsDetailView.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/confirmationDialog.imageset/confirmationDialog.png" width="20%">
 
 #### PhotosPicker
-<img src="PhotosPicker_1" width="20%"><img src="PhotosPicker_2" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_1.imageset/PhotosPicker_1.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_2.imageset/PhotosPicker_2.png" width="20%">
