@@ -16,15 +16,25 @@ struct StreakView: View {
                 Text("Streak \(Image(systemName: "flame.fill"))")
                     .foregroundStyle(.ember)
                 
-                Text("\(numberOfDays)")
-                    .font(.system(size: 70))
-                Text("Days")
+                Text(attributedText)
+                    .multilineTextAlignment(.center)
             }
             .font(.callout)
         }
     }
+    
+    var attributedText: AttributedString {
+        var attributedString = AttributedString(localized: "^[\(numberOfDays) \nDays](inflect: true)") // localization API 활용해서 자동으로 문법 교정
+        if let range = attributedString.range(of: "\(numberOfDays)") {
+            attributedString[range].font = .system(size: 70)
+        }
+        return attributedString
+    }
 }
 
 #Preview {
+    StreakView(numberOfDays: 0)
+    StreakView(numberOfDays: 1)
     StreakView(numberOfDays: 23)
 }
+

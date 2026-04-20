@@ -25,3 +25,10 @@ struct ContentView: View {
     ContentView()
         .sampleDataContainer()
 }
+
+// 다크모드 프리뷰
+#Preview ("Dark") {
+    ContentView()
+        .sampleDataContainer()
+        .preferredColorScheme(.dark)
+}

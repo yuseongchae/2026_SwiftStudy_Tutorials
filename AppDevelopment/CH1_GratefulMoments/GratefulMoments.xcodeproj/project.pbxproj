@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A2B2EDB2F91FBE800447141 /* Build configuration list for PBXProject "CH1_GratefulMoments" */;
+			buildConfigurationList = 5A2B2EDB2F91FBE800447141 /* Build configuration list for PBXProject "GratefulMoments" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A2B2EDB2F91FBE800447141 /* Build configuration list for PBXProject "CH1_GratefulMoments" */ = {
+		5A2B2EDB2F91FBE800447141 /* Build configuration list for PBXProject "GratefulMoments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2B2EE92F91FBE800447141 /* Debug */,

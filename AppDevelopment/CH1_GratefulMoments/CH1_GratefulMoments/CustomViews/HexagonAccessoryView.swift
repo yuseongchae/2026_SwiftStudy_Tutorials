@@ -28,6 +28,7 @@ struct HexagonAccessoryView: View {
             if badges.count > 1 {
                 Text("+\(badges.count)")
                     .bold()
+                    .minimumScaleFactor(0.3) // 텍스트가 잘리지 않고 줄어들도록 함
                     .frame(width: size * 0.5, height: size * 0.5)
                     .padding(8)
                     .background {
@@ -71,6 +72,7 @@ struct HexagonAccessoryView: View {
 }
 
 #Preview("Multiple badge") {
-    MomentHexagonView(moment: .imageSample, layout: .large)
+    MomentHexagonView(moment: .imageSample, layout: .standard)
+        .dynamicTypeSize(.large) // 텍스트가 넘치면 ... 으로 보임
         .sampleDataContainer()
 }
