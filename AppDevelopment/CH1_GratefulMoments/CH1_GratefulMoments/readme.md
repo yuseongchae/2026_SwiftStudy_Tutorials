@@ -103,12 +103,12 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
 - `locale`을 사용해야하는 이유
 To display information that reflects people's language and region settings.
 
-#### Dark모드 적용하고 Light모드와 함께 프리뷰에 띄우기 & Dynamic하게 UI 변동하기
-<img src="" width="20%">
+#### Dark모드 적용하고 Light모드와 함께 프리뷰에 띄우고 Dynamic하게 UI 변동하기
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/LightAndDark.imageset/LightAndDark.png" width="20%">
 
 #### Localize text 
 - 단수형/복수형 적용하기
-<img src="" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Number.imageset/Locale_Number.png" width="20%">
 
 - 다른 나라 언어 적용해보기 (Spanish)
-<img src="" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Language.imageset/Locale_Language.png" width="20%">
