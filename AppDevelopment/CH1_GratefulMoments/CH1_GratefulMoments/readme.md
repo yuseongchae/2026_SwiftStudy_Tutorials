@@ -94,9 +94,9 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements.imageset/Achievements.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements_scroll.imageset/Achievements_scroll.png" width="20%">
 
 ### CH3. App refinement
-1. Add inclusive features
+1. Add inclusive features https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features
 
-#### Check Your Understanding https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features
+#### Check Your Understanding 
 - scalable content를 restrict하는법
 `.dynamicTypeSize`를 활용한다.
 
@@ -104,11 +104,11 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
 To display information that reflects people's language and region settings.
 
 #### Dark모드 적용하고 Light모드와 함께 프리뷰에 띄우고 Dynamic하게 UI 변동하기
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/LightAndDark.imageset/LightAndDark.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/LightAndDark.imageset/LightAndDark.png" width="30%">
 
 #### Localize text 
 - 단수형/복수형 적용하기
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Number.imageset/Locale_Number.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Number.imageset/Locale_Number.png" width="30%">
 
 - 다른 나라 언어 적용해보기 (Spanish)
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Language.imageset/Locale_Language.png" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Language.imageset/Locale_Language.png" width="30%">
