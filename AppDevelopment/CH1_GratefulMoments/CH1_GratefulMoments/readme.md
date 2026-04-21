@@ -126,25 +126,25 @@ https://developer.apple.com/tutorials/develop-in-swift/investigate-and-fix-a-bug
     - Investigate to determine what’s wrong. If any bugs are found, fix them and test the app thoroughly.
 
 #### 첫 번째 테스트
-[테스트]
+**테스트**
 오늘(0) 기록이 없으면 어제(1)와 그저께(2) 기록이 있어도 점수를 갱신하지 않음
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/DidntIncrease.imageset/DidntIncrease.png" width="50%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/DidntIncrease.imageset/DidntIncrease.png" width="70%">
 
-[해결]
+**해결**
 현재 점수 다음 날짜`(streak + 1)`가 존재하는지 확인
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/PassTest.imageset/PassTest.png" width="50%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/PassTest.imageset/PassTest.png" width="70%">
 
 #### 두 번째 테스트
-[테스트]
+**테스트**
 다양한 입력값에 대한 파라미터화 테스트 실패
 (같은 날 여러 번 쓰면 점수가 더 올라가는 버그, 중간에 하루 비었는데도 계속 숫자를 세는 버그 등)
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/MultipleFail.imageset/MultipleFail.png" width="30%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/MultipleFail.imageset/MultipleFail.png" width="70%">
 
-[해결]
+**해결**
 - `continue`로 중복 방지 : `[0, 0]`이 들어와도 패스
 - `streak + 1`로 연속성 체크 : `[1, 2]`처럼 오늘(0)이 없어도 계산 시작
 - `break`로 중단 로직 작성: [0, 1, 3]처럼 중간에 2일 전 기록이 비어 있으면 즉시 멈추고 2만 반환
-- <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/AllPass.imageset/AllPass.png" width="30%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/AllPass.imageset/AllPass.png" width="70%">
     
 #### Reflect on concepts
 - Adapting to system concepts (Dark mode & Dynamic Type)
