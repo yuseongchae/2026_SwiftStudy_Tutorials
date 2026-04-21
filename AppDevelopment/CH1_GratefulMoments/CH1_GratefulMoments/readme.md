@@ -1,6 +1,7 @@
 ## [Swift] App Development
 ### CH1. Views and data storage
-1. Collect, model, and store data https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-data
+1. Collect, model, and store data
+https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-data
 
 - PhotosPicker
 - `import PhotosUI`로 불러와서 사용 가능
@@ -19,7 +20,9 @@
 #### MomentEntryView
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentEntryView.imageset/MomentEntryView.png" width="20%">
 
-2. Use a custom layout view https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view
+2. Use a custom layout view
+https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view
+
 #### Check your Understanding
 - `@ViewBuilder` property
 - closure를 사용해서 해당 property를 초기화하기 위해 사용한다. (View를 반환하는 closure를 property에 넘겨서 initialize할 수 있다)        
@@ -51,7 +54,8 @@
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_1.imageset/PhotosPicker_1.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/PhotosPicker_2.imageset/PhotosPicker_2.png" width="20%">
 
 ### CH2. User experience features
-Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges
+Create an algorithm for badges 
+https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges
 
 #### Check your Understanding
 - purpose of `FetchDescriptor` in SwiftData
@@ -93,7 +97,8 @@ Create an algorithm for badges https://developer.apple.com/tutorials/develop-in-
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements.imageset/Achievements.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch2/Achievements_scroll.imageset/Achievements_scroll.png" width="20%">
 
 ### CH3. App refinement
-1. Add inclusive features https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features
+1. Add inclusive features
+https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features
 
 #### Check Your Understanding 
 - scalable content를 restrict하는법
@@ -113,6 +118,7 @@ To display information that reflects people's language and region settings.
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Language.imageset/Locale_Language.png" width="30%">
 
 2. Investigate and fix a bug
+https://developer.apple.com/tutorials/develop-in-swift/investigate-and-fix-a-bug
 
 #### Check Your Understanding
 - bug report를 해결하려면 어떻게 해야할까?
@@ -120,14 +126,13 @@ To display information that reflects people's language and region settings.
     - Investigate to determine what’s wrong. If any bugs are found, fix them and test the app thoroughly.
 
 #### 첫 번째 테스트
-
 [테스트]
 오늘(0) 기록이 없으면 어제(1)와 그저께(2) 기록이 있어도 점수를 갱신하지 않음
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/DidntIncrease.imageset/DidntIncrease.png" width="30%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/DidntIncrease.imageset/DidntIncrease.png" width="50%">
 
 [해결]
 현재 점수 다음 날짜`(streak + 1)`가 존재하는지 확인
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/PassTest.imageset/PassTest.png" width="30%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/PassTest.imageset/PassTest.png" width="50%">
 
 #### 두 번째 테스트
 [테스트]
@@ -139,7 +144,7 @@ To display information that reflects people's language and region settings.
 - `continue`로 중복 방지 : `[0, 0]`이 들어와도 패스
 - `streak + 1`로 연속성 체크 : `[1, 2]`처럼 오늘(0)이 없어도 계산 시작
 - `break`로 중단 로직 작성: [0, 1, 3]처럼 중간에 2일 전 기록이 비어 있으면 즉시 멈추고 2만 반환
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/AllPass.imageset/AllPass.png" width="30%">
+- <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/AllPass.imageset/AllPass.png" width="30%">
     
 #### Reflect on concepts
 - Adapting to system concepts (Dark mode & Dynamic Type)
