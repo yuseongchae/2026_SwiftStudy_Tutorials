@@ -20,7 +20,6 @@
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/MomentEntryView.imageset/MomentEntryView.png" width="20%">
 
 2. Use a custom layout view https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view
-
 #### Check your Understanding
 - `@ViewBuilder` property
 - closure를 사용해서 해당 property를 초기화하기 위해 사용한다. (View를 반환하는 closure를 property에 넘겨서 initialize할 수 있다)        
@@ -112,3 +111,48 @@ To display information that reflects people's language and region settings.
 
 - 다른 나라 언어 적용해보기 (Spanish)
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/Assets.xcassets/Images/Ch3/Locale_Language.imageset/Locale_Language.png" width="30%">
+
+2. Investigate and fix a bug
+
+#### Check Your Understanding
+- bug report를 해결하려면 어떻게 해야할까?
+    - Try to reproduce the bug, determine the correct behavior, and change the app so that all user flows work correctly. (버그 재현해보기)
+    - Investigate to determine what’s wrong. If any bugs are found, fix them and test the app thoroughly.
+
+#### 첫 번째 테스트
+
+[테스트]
+오늘(0) 기록이 없으면 어제(1)와 그저께(2) 기록이 있어도 점수를 갱신하지 않음
+<img src="DidntIncrease" width="30%">
+
+[해결]
+현재 점수 다음 날짜`(streak + 1)`가 존재하는지 확인
+<img src="PassTest" width="30%">
+
+
+#### 두 번째 테스트
+[테스트]
+다양한 입력값에 대한 파라미터화 테스트 실패
+(같은 날 여러 번 쓰면 점수가 더 올라가는 버그, 중간에 하루 비었는데도 계속 숫자를 세는 버그 등)
+<img src="MultipleFail" width="30%">
+
+[해결]
+- `continue`로 중복 방지 : `[0, 0]`이 들어와도 패스
+- `streak + 1`로 연속성 체크 : `[1, 2]`처럼 오늘(0)이 없어도 계산 시작
+- `break`로 중단 로직 작성: [0, 1, 3]처럼 중간에 2일 전 기록이 비어 있으면 즉시 멈추고 2만 반환
+<img src="AllPass" width="30%">
+    
+#### Reflect on concepts
+- Adapting to system concepts (Dark mode & Dynamic Type)
+- Internationalization (The foundation for better supporting the diverse world we all live in)
+- Debugging
+
+#### Topics and skills covered
+- Adapting to the preferred color scheme on the device and supporting Dark Mode
+- Supporting Dynamic Type
+- `.minimumScaleFactor`, `.minHeight`, `.fixedSize()`를 활용해 다양한 크기의 layout에서 content 크기 맞춰보기
+- `.scrollBounceBehavior()`를 활용해 preventing scrolling
+- Displaying content specific to someone’s language and location with Locale
+- `AttributedString`활용해 하나의 문자열 안에서 여러 스타일 적용하기
+- Debugging code using the console and print statements
+- Using unit tests to replicate and fix bugs as well as verify the fixes
