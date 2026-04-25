@@ -9,8 +9,8 @@ https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learni
 - `Plottable` 프로토콜을 활용해 data를 chart 형태로 나타낼 수 있다.
 - `GeometryReader`
     - 자신의 부모 컨테이너 안에서 어디에 있고 얼마나 큰지를 real-time으로 파악한다.
-    - view가 배치(layout)되는 순간에 그 view의 위치, 크기 정보를 제공한다.ㅌ₩
-    => 부모 view를 기준으로 내 크기/위치를 알려줘서 화면 크기가 바뀌어도 레이아웃을 유연하게 만들어준다.
+    - view가 배치(layout)되는 순간에 그 view의 위치, 크기 정보를 제공한다.
+    - 부모 view를 기준으로 내 크기/위치를 알려줘서 화면 크기가 바뀌어도 레이아웃을 유연하게 만들어준다.
 
 #### Reflect on the concepts
 - 여러 의견을 분석해 감성 점수 결정하기
@@ -28,12 +28,13 @@ https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learni
 
 #### 값을 입력했을 때
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/EnterValue.imageset/EnterValue.png" width="20%">
+
 - Scorer.swift 파일에서 `unit: .paragraph` 때문에 전체 텍스트를 하나의 덩어리로 보고 점수를 한개만 계산해 부정확한 결과가 나오는 상태
 - `.sentimentScore`의 범위가 `-1.0 ~ 1.0`이어서 보수적으로 판단해 애매한 문장은 음수로 나오게 됨
-- 문장 단위로 분석하고 평균을 구하는 방식으로 코드를 변경하거나, `threshold`를 조정하여 로직을 개선할 수 있음.
+- 문장 단위로 분석하고 평균을 구하는 방식으로 코드를 변경하거나, `threshold`를 조정하여 로직을 개선할 수 있음
 
-```
-// 문장 단위로 분석하기
+##### 문장 단위로 분석하기
+```swift
 func score(_ text: String) -> Double {
     var scores: [Double] = []
     tagger.string = text
