@@ -31,6 +31,7 @@ https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learni
 - Scorer.swift 파일에서 `unit: .paragraph` 때문에 전체 텍스트를 하나의 덩어리로 보고 점수를 한개만 계산해 부정확한 결과가 나오는 상태
 - `.sentimentScore`의 범위가 `-1.0 ~ 1.0`이어서 보수적으로 판단해 애매한 문장은 음수로 나오게 됨
 - 문장 단위로 분석하고 평균을 구하는 방식으로 코드를 변경하거나, `threshold`를 조정하여 로직을 개선할 수 있음.
+
 ```
 // 문장 단위로 분석하기
 func score(_ text: String) -> Double {
@@ -57,7 +58,6 @@ func score(_ text: String) -> Double {
 if score > 0.2 → Positive
 if score < -0.2 → Negative
 else → Neutral
-```
 
 #### 스크롤해서 데이터 확인하기
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/ScrollView.imageset/ScrollView.png" width="20%">
