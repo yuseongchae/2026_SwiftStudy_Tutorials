@@ -58,7 +58,7 @@ func score(_ text: String) -> Double {
 // threshold 조정하기
 if score > 0.2 → Positive
 if score < -0.2 → Negative
-else → Neutral
+else → Neutral```
 
 #### 스크롤해서 데이터 확인하기
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/ScrollView.imageset/ScrollView.png" width="20%">
