@@ -24,10 +24,10 @@ https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learni
 - `GeometryReader`를 사용하여 view의 실시간 레이아웃(크기, 위치) 정보 얻기
 
 #### 기본 화면
-<img src="DefaultContent" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/DefaultContent.imageset/DefaultContent.png" width="20%">
 
 #### 값을 입력했을 때
-<img src="EnterValue" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/EnterValue.imageset/EnterValue.png" width="20%">
 - Scorer.swift 파일에서 `unit: .paragraph` 때문에 전체 텍스트를 하나의 덩어리로 보고 점수를 한개만 계산해 부정확한 결과가 나오는 상태
 - `.sentimentScore`의 범위가 `-1.0 ~ 1.0`이어서 보수적으로 판단해 애매한 문장은 음수로 나오게 됨
 - 문장 단위로 분석하고 평균을 구하는 방식으로 코드를 변경하거나, `threshold`를 조정하여 로직을 개선할 수 있음.
@@ -60,4 +60,4 @@ else → Neutral
 ```
 
 #### 스크롤해서 데이터 확인하기
-<img src="ScrollView" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/HikingSurvery/HikingSurvery/Assets.xcassets/ScrollView.imageset/ScrollView.png" width="20%">
