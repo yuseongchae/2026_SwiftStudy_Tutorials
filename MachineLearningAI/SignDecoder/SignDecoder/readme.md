@@ -28,7 +28,7 @@ https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images
 - Creating custom view modifiers
 
 #### Translation Framework 활용해보기
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/TranslationButton.imageset/TranslationButton.png" width="20%"><img src="Translated" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/TranslationButton.imageset/TranslationButton.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/Translated.imageset/Translated.png" width="20%">
 
 #### `recognitionLevel` modifier에 따른 분석 정확도 차이 확인해보기
 - fast로 설정했을 경우
@@ -46,3 +46,4 @@ fast보다는 변환 속도가 느리지만 정확도를 높일 수 있다.
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/ProgressView.imageset/ProgressView.png" width="20%">
 
 #### 이미지 배경 적용해 앱 꾸미기
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/Theme_main.imageset/Theme_main.png" width="20%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/Theme_detail.imageset/Theme_detail.png" width="20%">
