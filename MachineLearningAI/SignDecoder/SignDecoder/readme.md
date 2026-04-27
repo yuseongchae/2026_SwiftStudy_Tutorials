@@ -27,17 +27,16 @@ https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images
 - Translating text from images
 - Creating custom view modifiers
 
-
 #### Translation Framework 활용해보기
-<img src="TranslationButton" width="20%"><img src="Translated" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/TranslationButton.imageset/TranslationButton.png" width="20%"><img src="Translated" width="20%">
 
 #### `recognitionLevel` modifier에 따른 분석 정확도 차이 확인해보기
 - fast로 설정했을 경우
-<img src="RecogLevel_Fast" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/RecogLevel_Fast.imageset/RecogLevel_Fast.png" width="20%">
 변환 속도는 빠르지만 부정확한 결과가 나올 수 있다.
 
 - accurate
-<img src="Translated" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/RecogLevel_Accurate.imageset/RecogLevel_Accurate.png" width="20%">
 fast보다는 변환 속도가 느리지만 정확도를 높일 수 있다.
 => The recognition level is a tradeoff between speed and accuracy.
 (trade-off : 하나를 얻으면 하나를 잃는 관계)
