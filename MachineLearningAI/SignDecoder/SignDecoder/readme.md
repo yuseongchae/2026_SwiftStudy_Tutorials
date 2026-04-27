@@ -38,6 +38,11 @@ https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images
 - accurate
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/RecogLevel_Accurate.imageset/RecogLevel_Accurate.png" width="20%">
 fast보다는 변환 속도가 느리지만 정확도를 높일 수 있다.
+
 => The recognition level is a tradeoff between speed and accuracy.
 (trade-off : 하나를 얻으면 하나를 잃는 관계)
 
+#### ProgressView를 활용해 처리중인 경우를 대비하기
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/SignDecoder/SignDecoder/Assets.xcassets/captures/ProgressView.imageset/ProgressView.png" width="20%">
+
+#### 이미지 배경 적용해 앱 꾸미기
