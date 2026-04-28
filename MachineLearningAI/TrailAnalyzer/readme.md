@@ -121,13 +121,15 @@ validation data는 학습에 사용되지 않는다
 
 #### 알고리즘별 모델 학습
 - Decision Tree
-**Setting**
+Setting
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_set.png" width="70%">
-**Evaluation**
+
+Evaluation
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_eval.png" width="70%">
 
 - Linear Regression
-**Setting**
+Setting
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_set.png" width="70%">
-**Evaluation**
+
+Evaluation
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_eval.png" width="70%">
