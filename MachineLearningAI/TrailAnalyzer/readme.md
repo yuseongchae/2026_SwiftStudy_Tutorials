@@ -105,23 +105,23 @@ validation data는 학습에 사용되지 않는다
 
 #### Default Setting으로 모델 학습시키기
 - Setting
-<img src="Settings" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Settings.png" width="70%">
 
 - Training
-<img src="Training" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Training.png" width="70%">
 
 - Evaluation
-<img src="Evaluation" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Evaluation.png" width="70%">
 
 - Preview
-<img src="Preview" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Preview.png" width="70%">
 
 - Output
-<img src="Output" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Output.png" width="70%">
 
 #### 알고리즘별 모델 학습
 - Decision Tree
-<img src="DecisionTree_set" width="70%"><img src="DecisionTree_eval" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_set.png" width="70%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_eval.png" width="70%">
 
 - Linear Regression
-<img src="LinearRegression_set" width="70%"><img src="LinearRegression_eval" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_set.png" width="70%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_eval.png" width="70%">
