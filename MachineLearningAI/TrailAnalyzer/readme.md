@@ -120,8 +120,14 @@ validation data는 학습에 사용되지 않는다
 <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/Output.png" width="70%">
 
 #### 알고리즘별 모델 학습
-Decision Tree
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_set.png" width="50%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_eval.png" width="50%">
+- Decision Tree
+**Setting**
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_set.png" width="70%">
+**Evaluation**
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/DecisionTree_eval.png" width="70%">
 
-Linear Regression
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_set.png" width="50%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_eval.png" width="50%">
+- Linear Regression
+**Setting**
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_set.png" width="70%">
+**Evaluation**
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/images/LinearRegression_eval.png" width="70%">
