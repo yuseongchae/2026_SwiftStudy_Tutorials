@@ -49,14 +49,24 @@ https://developer.apple.com/tutorials/develop-in-swift/custom-models-with-core-m
 머신러닝은 단순한 예측이 아니라 결과를 이해 가능하고 유용하게 만드는 것이다.
 
 #### 메인 화면
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Main.imageset/Main.png" width="30%">
+<p>
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Main.imageset/Main.png" width="20%">
+</p>
 
 #### 선택하고 결과 보기
 **High Risk**
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Picker.imageset/Picker.png" width="30%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/HighRisk.imageset/HighRisk.png" width="30%">
+<p>
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Picker.imageset/Picker.png" width="20%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/HighRisk.imageset/HighRisk.png" width="20%">
+</p>
 
 **Easy**
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/LowValue.imageset/LowValue.png" width="30%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/EasyResult.imageset/Easy.png" width="30%">
+<p>
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/LowValue.imageset/LowValue.png" width="20%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/EasyResult.imageset/Easy.png" width="20%">
+</p>
 
 #### 난이도 정보
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Info.imageset/Info.png" width="30%">
+<p>
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/TrailAnalyzer/TrailAnalyzer/TrailAnalyzer/Assets.xcassets/images/Info.imageset/Info.png" width="20%">
+</p>
