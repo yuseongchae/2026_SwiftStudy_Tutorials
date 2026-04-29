@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-04-28T09:26:12Z",
+        "event" : "projectCreated",
+        "id" : "A2BE0016-481D-493C-800C-991034BB4F52",
+        "subtitle" : "TrailAnalyzer",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "채유성",
+  "createdDate" : "2026-04-28T09:26:12Z",
+  "description" : "",
+  "id" : "EB2D017F-BD95-4D5B-B776-C12A44138799",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-04-28T09:26:12Z",
+  "projectName" : "TrailAnalyzer",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}

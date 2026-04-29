@@ -1,0 +1,127 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-04-28T13:58:36Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "069AA413-4F1D-41C0-B1AA-F6715C9A506B",
+        "subtitle" : "TrailAnalyzer 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-28T15:35:37Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "EBEE5C05-DC05-49AB-A457-F31DE0551089",
+        "subtitle" : "Decision Tree",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-28T15:44:03Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "0243A9AA-C0BD-4C7C-A26D-4E81DC3B88A6",
+        "subtitle" : "Linear Regression",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-04-28T13:58:36Z",
+        "event" : "dataSourceMetrics",
+        "id" : "EBA9EDFE-79A2-4459-9170-865779C47CF3",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-28T15:35:37Z",
+        "event" : "dataSourceMetrics",
+        "id" : "7EEBAA68-D9E4-485D-AD51-0ECED071EE36",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-28T15:44:03Z",
+        "event" : "dataSourceMetrics",
+        "id" : "ABDA215C-123A-48B5-8CCC-629C9F975E59",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-04-28T09:29:34Z",
+  "dataPathRelativeToProjectURL" : "../TrailData/Trail10k.csv/",
+  "dataResult" : {
+    "columnTypes" : [
+      "Int",
+      "Int",
+      "String",
+      "Int",
+      "Int"
+    ],
+    "columnValues" : [
+      "1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1",
+      "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved",
+      "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"
+    ],
+    "columns" : [
+      "distance",
+      "elevation",
+      "terrain",
+      "dangerous",
+      "risk"
+    ],
+    "createdDate" : "2026-04-28T09:29:34Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+
+      },
+      "issues" : [
+        {
+          "description" : "No target selected",
+          "severity" : "notReady"
+        },
+        {
+          "description" : "Data has 10000 rows",
+          "severity" : "info"
+        },
+        {
+          "description" : "No features selected",
+          "severity" : "notReady"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "sampleCount" : 10000
+      }
+    },
+    "dataSourceID" : "1EF4E4BC-0076-4FAC-B92D-CDE05653EBD6",
+    "dataURL" : "file:///Users/chaeyuseong/Desktop/ADA/SwiftStudy/2026_SwiftStudy_Tutorials/MachineLearningAI/TrailData/Trail10k.csv",
+    "error" : {
+      "code" : 1000,
+      "domain" : "composer.error.domain",
+      "errorType" : "notReady",
+      "reason" : "No target selected"
+    },
+    "itemsCount" : 10000
+  },
+  "dataURL" : "file:///Users/chaeyuseong/Desktop/ADA/SwiftStudy/2026_SwiftStudy_Tutorials/MachineLearningAI/TrailData/Trail10k.csv",
+  "experimentIDs" : [
+    "9597BFCC-B1E1-4DF0-A8CA-A4C27B48A508",
+    "79BB3586-A222-48E3-8548-50E5B1A5BDFB",
+    "B7182927-CA61-45C0-BCF1-D34888B0A049"
+  ],
+  "id" : "1EF4E4BC-0076-4FAC-B92D-CDE05653EBD6",
+  "modifiedDate" : "2026-04-28T15:44:03Z",
+  "pathType" : 0,
+  "preferredFilename" : "Trail10k.csv",
+  "title" : "Trail10k.csv",
+  "version" : "1.0"
+}
