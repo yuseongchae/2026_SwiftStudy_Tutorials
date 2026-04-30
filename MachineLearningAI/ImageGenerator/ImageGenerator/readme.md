@@ -30,38 +30,38 @@ https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-
 ### 이미지 생성해보기
 #### 모두 선택하지 않으면 비활성화
 <p>
-  <img src="Disabled" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Disabled.imageset/Disabled.png" width="70%">
 </p>
 
 #### 생성중일 때는 Progress 보여주기
 <p>
-  <img src="Generating" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Generating.imageset/Generating.png" width="70%">
 </p>
 
-#### 샐러드 일러스트 생성
+#### 일러스트 스타일로 샐러드 이미지 생성
 <p>
-  <img src="Salad" width="70%">
-<img src="Salad_illustration" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad.imageset/Salad.png" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad_Illustration.imageset/Salad_Illustration.png" width="70%">
 </p>
 
-#### 샌드위치 애니메이션 생성
+#### 애니메이션 스타일로 샌드위치 이미지 생성
 <p>
-  <img src="Sandwich" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Sandwich.imageset/Sandwich.png" width="70%">
 <img src="Sandwich_Animation" width="70%">
 </p>
 
 - 샌드위치에 재료 추가하기
-  <img src="Add" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Add.imageset/Add.png" width="70%">
 
 - 이미지 공유하기
-  <img src="Share" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Share.imageset/Share.png" width="70%">
   
 - 이미지 플레이그라운드 실행해보기
-  <img src="ImagePlayground" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/ImagePlayground.imageset/ImagePlayground.png" width="70%">
   
-#### 아이스크림 스케치 생성
+#### 스케치 스타일로 아이스크림 이미지 생성
 <p>
-  <img src="Icecreme" width="70%">
-<img src="Icecreme_Sketch" width="70%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme.imageset/Icecreme.png" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme_Scetch.imageset/Icecreme_Scetch.png" width="70%">
 </p>
 
