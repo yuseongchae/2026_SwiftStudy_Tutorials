@@ -28,40 +28,58 @@ https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-
 
 
 ### 이미지 생성해보기
+
 #### 모두 선택하지 않으면 비활성화
-<p>
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Disabled.imageset/Disabled.png" width="70%">
+<p align="center">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Disabled.imageset/Disabled.png" width="35%">
 </p>
+
+---
 
 #### 생성중일 때는 Progress 보여주기
-<p>
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Generating.imageset/Generating.png" width="70%">
+<p align="center">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Generating.imageset/Generating.png" width="35%">
 </p>
+
+---
 
 #### 일러스트 스타일로 샐러드 이미지 생성
-<p>
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad.imageset/Salad.png" width="70%">
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad_Illustration.imageset/Salad_Illustration.png" width="70%">
+<p align="center">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad.imageset/Salad.png" width="35%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Salad_Illustration.imageset/Salad_Illustration.png" width="35%">
 </p>
+
+---
 
 #### 애니메이션 스타일로 샌드위치 이미지 생성
-<p>
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Sandwich.imageset/Sandwich.png" width="70%">
-<img src="Sandwich_Animation" width="70%">
+<p align="center">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Sandwich.imageset/Sandwich.png" width="35%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Sandwich_Animation.imageset/Sandwich_Animation.png" width="35%">
 </p>
 
-- 샌드위치에 재료 추가하기
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Add.imageset/Add.png" width="70%">
+---
 
-- 이미지 공유하기
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Share.imageset/Share.png" width="70%">
-  
-- 이미지 플레이그라운드 실행해보기
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/ImagePlayground.imageset/ImagePlayground.png" width="70%">
-  
+#### 추가 기능
+
+- **샌드위치에 재료 추가하기**
+  <p>
+    <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Add.imageset/Add.png" width="35%">
+  </p>
+
+- **이미지 공유하기**
+  <p>
+    <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Share.imageset/Share.png" width="35%">
+  </p>
+
+- **이미지 플레이그라운드 실행**
+  <p>
+    <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/ImagePlayground.imageset/ImagePlayground.png" width="35%">
+  </p>
+
+---
+
 #### 스케치 스타일로 아이스크림 이미지 생성
-<p>
-  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme.imageset/Icecreme.png" width="70%">
-<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme_Scetch.imageset/Icecreme_Scetch.png" width="70%">
+<p align="center">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme.imageset/Icecreme.png" width="35%">
+  <img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/ImageGenerator/ImageGenerator/Assets.xcassets/Images/Icecreme_Scetch.imageset/Icecreme_Scetch.png" width="35%">
 </p>
-
