@@ -34,7 +34,7 @@ https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-
 
 
 #### 퀴즈 메인 페이지
-<img src="Main" width="35%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/MachineLearningAI/GenerableQuiz/GenerableQuiz/Assets.xcassets/Quiz.imageset/Quiz.jpg" width="35%">
 
 #### Apple Intelligence로 퀴즈 생성하고 풀어보기
-<img src="Quiz" width="35%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/tree/main/MachineLearningAI/GenerableQuiz/GenerableQuiz" width="35%">
