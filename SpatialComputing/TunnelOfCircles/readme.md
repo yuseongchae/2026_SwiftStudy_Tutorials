@@ -27,7 +27,7 @@ https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-
 - `Grid`, `GridRow`로 그리드 레이아웃 구성하기
 
 #### visionOS 프로젝트에서 SwiftUI 띄워보기
-<img src="Front" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/TunnelOfCircles/images/Front.png" width="70%">
 
 #### 깊이감 있는 UI 만들어보기
-<img src="Side" width="20%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/TunnelOfCircles/images/Side.png" width="70%">
