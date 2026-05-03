@@ -1,6 +1,6 @@
 ## [Swift] Spatial computing
 ### CH1. Windows in visionOS
-https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-features
+https://developer.apple.com/tutorials/develop-in-swift/add-depth-to-your-app
 
 ### Check your Understanding
 - `Grid`, `GridRow`
