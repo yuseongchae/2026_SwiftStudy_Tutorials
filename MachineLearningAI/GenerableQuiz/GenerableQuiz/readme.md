@@ -1,6 +1,6 @@
 ## [Swift] Machine learning and AI
-### CH6. Image generation with Image Playground
-https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-features
+### CH6. Intelligent features with Foundation Models
+https://developer.apple.com/tutorials/develop-in-swift/generate-structured-content
 
 ### Check your Understanding
 - `@Guide`
@@ -23,7 +23,6 @@ https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-
 - `@Guide`로 각 프로퍼티의 생성 방향 구체화
 - `LanguageModelSession`의 instructions, 초기 prompt, `@Guide`들이 하나의 프롬프트 체인처럼 연결되어 결과 형성
 - response는 streaming으로 들어오기 때문에 완성되지 않은 데이터를 점진적으로 처리해야 함
-    
 
 ### Topics and skills covered
 - `@Generable` 매크로
