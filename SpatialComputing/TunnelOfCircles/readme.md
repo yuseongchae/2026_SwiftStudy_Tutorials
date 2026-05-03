@@ -6,7 +6,7 @@ https://developer.apple.com/tutorials/develop-in-swift/add-depth-to-your-app
 - `Grid`, `GridRow`
     - `Grid`로 전체 레이아웃을 구성하고, `GridRow`로 각 행을 정의하여 가로로 정렬된 여러 행을 만들 수 있다.
     
-- `.background(.thickMaterial)
+- `.background(.thickMaterial)`
     - view의 배경을 thick material 스타일로 바꿀 수 있다. 
     
 - `padding3D`
