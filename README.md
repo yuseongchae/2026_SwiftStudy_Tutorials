@@ -16,7 +16,7 @@ Apple 공식 Swift tutorial을 참고해 학습한 내용입니다.
 | Chapter | Topic | Note |
 | :--- | :--- | :--- |
 | **Ch 1** | [Collect, model, and store data (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-data) | [GratefulMoments 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/readme.md) |
-| | [Use a custom layout view (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view) | (Ch 1~3 통합 정리본) |
+| | [Use a custom layout view (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view) | 上同 |
 | **Ch 2** | [Create an algorithm for badges](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | 上同 |
 | **Ch 3** | [Add inclusive features (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | 上同 |
 | | [Investigate and fix a bug (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/investigate-and-fix-a-bug) | 上同 |
