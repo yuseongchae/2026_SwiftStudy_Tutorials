@@ -29,13 +29,13 @@ https://developer.apple.com/tutorials/develop-in-swift/present-common-controls-i
 
 #### visionOS 프로젝트에서 텍스트 입력해보기
 - 짧은 글 입력
-<img src="InputText" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/LabelMaker/LabelMaker/Images/InputText.png" width="70%">
 
 - 여러 줄 입력 (LabelView.swift 파일에서 TextField에 `axis: .vertical`modifier를 설정)
-<img src="Multiline" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/LabelMaker/LabelMaker/Images/Multiline.png" width="70%">
 
 #### Window 움직여보기
-<img src="MoveWindow" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/LabelMaker/LabelMaker/Images/MoveWindow.png" width="70%">
 
 #### ornemant 활용해 새 Window 만들어보기
-<img src="LabelCreate" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/LabelMaker/LabelMaker/Images/LabelCreate.png" width="70%">
