@@ -1,5 +1,5 @@
 # Develop in Swift Tutorials
-Apple 공식 Swift tutorial 학습 내용
+Apple 공식 Swift tutorial을 참고해 학습한 내용입니다.
 
 ## 📊 Data Modeling
 | Chapter | Topic | Note |
