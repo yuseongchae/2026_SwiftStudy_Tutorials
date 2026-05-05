@@ -26,7 +26,7 @@ https://developer.apple.com/tutorials/develop-in-swift/create-3d-models-in-the-s
 - 제스처를 추가해 volumetric 공간에서 모델 이동하기
 
 ### Reality Composer Pro에서 Scene 만들고 3D 모델 불러오기
-<img src="RealityComposer" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/SeaCreatures/images/RealityComposer.png" width="70%">
 
 ### VisionPro에서 3D assets 띄우고 움직여보기
-<img src="Model" width="70%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/SeaCreatures/images/Move.png" width="70%">
+<img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/SeaCreatures/images/Model.png" width="70%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/SeaCreatures/images/Move.png" width="70%">
