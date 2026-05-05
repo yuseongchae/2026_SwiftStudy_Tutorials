@@ -5,21 +5,21 @@ Apple 공식 Swift tutorial을 참고해 학습한 내용입니다.
 | Chapter | Topic | Note |
 | :--- | :--- | :--- |
 | **Ch 1** | [Model data with custom types (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/model-data-with-custom-types) | [ScoreKeeper 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH1_ScoreKeeper/CH1_ScoreKeeper/readme.md) |
-| | [Add functionality with Swift Testing (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing) | 上同 |
+| | [Add functionality with Swift Testing (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing) | Same as above |
 | **Ch 2** | [Save data](https://developer.apple.com/tutorials/develop-in-swift/save-data) | [Birthdays 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH2_Birthdays/CH2_Birthdays/readme.md) |
 | **Ch 3** | [Navigate sample data (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data) | [FriendFavoriteMovies 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH3_FriendFavoriteMovies/CH3_FriendFavoriteMovies/readme.md) |
-| | [Create, update, and delete data (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/create-update-and-delete-data) | 上同 |
-| | [Work with relationships (Part 3)](https://developer.apple.com/tutorials/develop-in-swift/work-with-relationships) | 上同 |
+| | [Create, update, and delete data (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/create-update-and-delete-data) | Same as above |
+| | [Work with relationships (Part 3)](https://developer.apple.com/tutorials/develop-in-swift/work-with-relationships) | Same as above |
 | **Ch 4** | [Complete a game with logic](https://developer.apple.com/tutorials/develop-in-swift/complete-a-game-with-logic) | [Alphabetizer 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/DataModeling/CH4_Alphabetizer/Alphabetizer/readme.md) |
 
 ## ⚙️ App Development
 | Chapter | Topic | Note |
 | :--- | :--- | :--- |
 | **Ch 1** | [Collect, model, and store data (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/collect-model-and-store-data) | [GratefulMoments 정리본](https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/AppDevelopment/CH1_GratefulMoments/CH1_GratefulMoments/readme.md) |
-| | [Use a custom layout view (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view) | 上同 |
-| **Ch 2** | [Create an algorithm for badges](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | 上同 |
-| **Ch 3** | [Add inclusive features (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | 上同 |
-| | [Investigate and fix a bug (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/investigate-and-fix-a-bug) | 上同 |
+| | [Use a custom layout view (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/use-a-custom-layout-view) | Same as above |
+| **Ch 2** | [Create an algorithm for badges](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | Same as above |
+| **Ch 3** | [Add inclusive features (Part 1)](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | Same as above |
+| | [Investigate and fix a bug (Part 2)](https://developer.apple.com/tutorials/develop-in-swift/investigate-and-fix-a-bug) | Same as above |
 
 ## 🤖 Machine Learning and AI
 | Chapter | Topic | Note |
