@@ -34,6 +34,11 @@
 			path = SeaCreatures;
 			sourceTree = "<group>";
 		};
+		5A50A3F42FA9DB1300BC72AB /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 				5A50A3DA2FA9C8B500BC72AB /* SeaCreatures */,
 				5A50A3DB2FA9C8B500BC72AB /* Packages */,
 				5A50A3D92FA9C8B500BC72AB /* Products */,
+				5A50A3F42FA9DB1300BC72AB /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +96,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5A50A3DA2FA9C8B500BC72AB /* SeaCreatures */,
+				5A50A3F42FA9DB1300BC72AB /* images */,
 			);
 			name = SeaCreatures;
 			packageProductDependencies = (

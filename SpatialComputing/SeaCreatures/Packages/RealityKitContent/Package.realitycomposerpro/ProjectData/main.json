@@ -1,11 +1,25 @@
 {
   "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/ClaimScene.usda" : "47C9AB13-F40A-4ECB-9710-094A3EAF695B",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FishScene.usda" : "137FA2ED-B1AB-4ADF-AA65-FC65BCF42FEA",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "440DE5B4-E4E4-459B-AABF-9ACE96319272",
-    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "34C460AE-CA1B-4348-BD05-621ACBDFFE97",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SlugScene.usda" : "6AD696D9-D8FA-4181-9551-C2FEC3C496E1",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/StarfishScene.usda" : "8DBBCD3A-CD42-456E-86E9-3285E1C4326A",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "03E02005-EFA6-48D6-8A76-05B2822A74E9",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "34C460AE-CA1B-4348-BD05-621ACBDFFE97",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/ClamScene.usda" : "75C2BCD2-88B6-4DB1-BBC3-2FF99215F252",
     "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "FBD8436F-6B8B-4B82-99B5-995D538B4704",
-    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "1CBF3893-ABFD-408C-8B91-045BFD257808",
-    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "26DBAE76-5DD8-47B6-A085-1B4ADA111097"
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "1CBF3893-ABFD-408C-8B91-045BFD257808"
+  },
+  "projectID" : 3884712755042881787,
+  "uuidToIntID" : {
+    "137FA2ED-B1AB-4ADF-AA65-FC65BCF42FEA" : -7711374043733362106,
+    "26DBAE76-5DD8-47B6-A085-1B4ADA111097" : 3336055708079908974,
+    "47C9AB13-F40A-4ECB-9710-094A3EAF695B" : 4985494293080642020,
+    "6AD696D9-D8FA-4181-9551-C2FEC3C496E1" : -1870248958902639932,
+    "75C2BCD2-88B6-4DB1-BBC3-2FF99215F252" : -3083743643034162547,
+    "8DBBCD3A-CD42-456E-86E9-3285E1C4326A" : 1403860515700872983
   }
 }
