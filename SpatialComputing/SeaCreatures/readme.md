@@ -3,8 +3,8 @@
 https://developer.apple.com/tutorials/develop-in-swift/create-3d-models-in-the-shared-space
 
 ### Check your Understanding
-- .windonStyle에서 volume 만들기
-    - .volumetric
+- `.windonStyle`에서 volume 만들기
+    - `.volumetric`
 - Reality Composer Pro
     - 3D models, sounds, materials를 만들고 프로젝트에 불러올 수 있다.
     - 내가 만든 3D 모델의 scale, position, rotation을 설정할 수 있다.
@@ -29,4 +29,4 @@ https://developer.apple.com/tutorials/develop-in-swift/create-3d-models-in-the-s
 <img src="RealityComposer" width="70%">
 
 ### VisionPro에서 3D assets 띄우고 움직여보기
-<img src="Model" width="70%"><img src="Move" width="70%">
+<img src="Model" width="70%"><img src="https://github.com/yuseongchae/2026_SwiftStudy_Tutorials/blob/main/SpatialComputing/SeaCreatures/images/Move.png" width="70%">
